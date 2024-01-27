@@ -1,1 +1,1 @@
-i used Html , css and javascript to build this portfolio
+I used Html , css and javascript to build this portfolio
