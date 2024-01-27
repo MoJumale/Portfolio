@@ -485,23 +485,15 @@ top: 160px;
     top: calc(100% - 12rem);
   }
 
-  /* CSS for border color animation */
+ /* CSS for combined animation */
 .page {
-  border: 2px solid #000; /* Initial border color */
-  transition: border-color 0.5s ease; /* Transition for border color change */
-}
-
-.page.animate {
-  border-color: white; /* New border color when animated */
-}
-
-/* CSS for box shadow animation */
-.page {
+  border: 2px solid #dfdcdc; /* Initial border color */
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Initial box shadow */
-  transition: box-shadow 0.5s ease; /* Transition for box shadow change */
+  transition: border-color 0.5s ease, box-shadow 0.5s ease; /* Transition for both changes */
 }
 
 .page.animate {
+  border-color: rgb(6, 139, 179); /* New border color when animated */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* New box shadow when animated */
 }
 
